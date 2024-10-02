@@ -1,0 +1,29 @@
+/* David Silva Vega */
+
+/* Estilo que tendrán todos los elementos de la tabla (bordes, alineación, padding, y color de fondo) */
+table, th, tr, td{
+    border-collapse: collapse;
+    border: solid;
+    text-align: right;
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+/* Estilo genérico para body (fuente, estilo de fuente y color de fondo) */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: lightskyblue;
+}
+
+/* Estilo concreto de la cabecera de la tabla */
+th{
+    font-size: large;
+}
+
+/* Estilo concreto del elemento tabla */
+table{
+    margin: auto;
+    height: 200px;
+    margin-top: 200px;
+}
