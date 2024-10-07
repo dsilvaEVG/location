@@ -2,8 +2,8 @@
 
 /* Estilo que tendrán todos los elementos de la tabla (bordes, alineación, padding, y color de fondo) */
 table, th, tr, td{ 
-    border-collapse: collapse;
     border: solid;
+    border-collapse: collapse;
     text-align: center;
     padding: 10px;
     background-color: beige;
