@@ -10,12 +10,16 @@
 <body>
 <table> <!-- Creamos una tabla donde recogemos los datos de check.php -->
         <tr>
+            <th>Número</th>
             <th>Cuadrado</th>
             <th>Par/Impar</th>
         </tr>
         <tr>
     <?php
-        echo '<td>' .$_GET["num"]. '</td>
+        $numero = sqrt($_GET["num"]);
+
+        echo '<td>' .$numero. '</td>
+        <td>' .$_GET["num"]. '</td>
             <td> ES PAR</td>';
     ?> 
     <!-- Primera celda, el número. Segunda celda, su cuadrado. Tercera celda, si es par o impar (en este caso, impar) -->
